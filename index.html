@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a13f2a7a61.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1b1d865aa5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="scripts/main.js" defer></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <li><img src="images/digg-brands.svg" alt="Company logo" class="logo-header"></li>
+        </div>
+        <div>
+            <ol>
+                <li class="header-btn"><a href="#">Home</a></li>
+                <li class="header-btn"><a href="#">Business</a></li>
+                <li class="header-btn"><a href="#">Features</a></li>
+                <li class="header-btn"><a href="#">Resources</a></li>
+            </ol>
+        </div>
+    </header>
+
+    <section id="About-me">
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>Hello my name is Ahmed Ali Khan, thankyou for checking out my website. I am an aspiring programming who,s field of interest include web development and machine learning. I have studied multiple programming languages such as; c++,python, and Ruby. Currently I am doing an internship for React and wish to pursue a career in web development.</p>
+        </div>
+        <div>
+            <img src="images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="About-me" class="about-img">
+        </div>
+    </section>
+
+    <div class="lazy">
+        <div>
+            <img src="images/javascript-ga4ef7116f_640.png" alt="javascript">
+            <h1>javascript</h1>
+        </div>
+        <div>
+            <img src="images/html5-g4287f8fc2_640.png" alt="html">
+            <h1>HTML 5</h1>
+        </div>
+        <div>
+            <img src="images/web-development-g3ac4c0180_640.png" alt="web">
+            <H1>languages</H1>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="container-flex">
+            <p class="paragraph">Contact Me</p>
+            <input type="text" placeholder="First name" id="Fname" name="Fname" class="inp"/> <span></span>
+            <input type="text" placeholder="Last name" id="Lname" name="Lname" class="inp"/> <span></span>
+            <!-- <input type="password" placeholder="Enter password"  id="Password" name="Password" class="inp"/> <span></span> -->
+            <!-- <input type="password" placeholder="Re-enter password" id="Re-Password" name="Re-Password"  class="inp"/><span></span> -->
+            <input type="email" placeholder="Enter email" id="email" name="email"  class="inp" required/><span></span>
+            <textarea name="query" id="query" cols="30" rows="10" class="text-area" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+            <!-- <img src="login background.jpg" alt="background screen"> -->
+            <!-- <p class="paragraph-2" >Already have an account? <a href="#">SignIn</a></p> -->
+        </div>
+    </div>
+
+    
+    <footer>
+        <div>
+            <img src="images/digg-brands.svg" alt="Company Logo" class="logo-footer" >
+        </div>
+        <div>
+            <p class="h-1">Company Name</p>
+            <!-- <hr class="hr-1"> -->
+            <p>This is section holds the description of the company and what services the company offers</p>
+        </div>
+        <div>
+            <p class="h-1">Products</p>
+            <!-- <hr class="hr-2"> -->
+            <ol>
+                <li>React</li>
+                <li>Flutter</li>
+                <li>Flutter</li>
+                <li>Bootstrap</li>
+                <li>Angular.js</li>
+            </ol>
+        </div>
+        <div>
+            <p class="h-1">Services</p>
+            <!-- <hr class="hr-2"> -->
+            <ol>
+                <li>Server Maintanence</li>
+                <li>UI/UX Design</li>
+                <li>Documentation</li>
+                <li>Font-End development</li>
+            </ol>
+        </div>
+        <div>
+            <p class="h-1">Usefull links</p>
+            <!-- <hr class="hr-3"> -->
+            <ol>
+                <li>
+                    <a href="https://evampsaanga.com/">
+                        <img src="images/instagram-brands.svg" alt="instagram link " class="logo-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://evampsaanga.com/">
+                        <img src="images/twitter-brands.svg" alt="twitter link" class="logo-img">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://evampsaanga.com/">
+                        <img src="images/facebook-brands.svg" alt="facebook link" class="logo-img">
+                    </a>
+                </li>
+            </ol>
+
+            
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $('.lazy').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:true,
+            arrows: true,
+            speed:1000,
+            prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-arrow-left fa-3x"></i></button>',
+            nextArrow: '<button class="slide-arrow next-arrow"><i class="fa-solid fa-arrow-right fa-3x"></i></button>'
+
+        });
+    </script>
+</body>
+</html>

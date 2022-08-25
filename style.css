@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --footer-header-bgColor: #356c99;
+    --font-color: whitesmoke;
+}
+
+/* class selector */
+
+.h-1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.25rem;
+}
+
+.logo-footer {
+    width: 8.65rem;
+    height: 8.65rem;
+    align-items: center;
+}
+
+.logo-header {
+    width: 3.95rem;
+    height: 3.95rem;
+    align-items: center;
+    padding-right: 1.2rem;
+}
+
+.container {
+    background-image: url("./images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.inp {
+    border-radius: 0.6rem;
+    width: 12rem;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid black;
+}
+
+.text-area {
+    border-radius: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+.btn {
+    padding: 0.4rem;
+    width: 10rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: rgb(93, 93, 216);
+    box-shadow: 2px 5px rgba(82, 82, 190, 0.452);
+}
+
+.btn:hover {
+    background-color:rgb(61, 61, 219)
+}
+
+.header-btn {
+    padding: 1.5rem;
+}
+
+.header-btn:hover {
+    background-color: rgba(5, 4, 4, 0.637);        
+}
+
+
+.paragraph{
+    font-size: 20px;
+    /* padding-bottom: 0.2rem; */
+    margin: 0.35rem 0;
+}
+
+.paragraph-2{
+    font-size: 16px;
+    /* padding-top: 0.5rem; */
+    /* padding-bottom: 0.2rem; */
+    margin: 0.4rem 0;
+}
+
+
+
+/* tag selector */
+
+a{
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    background-color:var(--footer-header-bgColor);
+    padding: 0.5rem;
+    color:var(--font-color);   
+}
+
+footer ol {
+    flex-direction: row;
+}
+
+footer div {
+    flex-basis: 20rem;
+    padding :1.6rem
+}
+
+footer div hr {
+    margin-bottom: 0.7rem;
+}
+
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--footer-header-bgColor);
+    padding: 0.5rem;
+    color:var(--font-color);
+}
+
+
+header div ol{
+    display: flex; 
+}
+
+header ol li {
+    font-size: 1.2rem;
+    flex-direction: column-reverse;
+    padding-right: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+header ol li a {
+    color: var(--font-color);
+}
+
+.logo-img {
+    width: 1.65rem;
+    height: 1.65rem;
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus-within {
+    background-color:cornsilk;
+    font-weight: bold;
+}
+
+#About-me {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#About-me div {
+    width: 50%;
+    height: 70vh;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    background-color: #3E9CC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+.about-text h1 {
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+}
+
+.lazy div img {
+    margin: 0 auto;
+}
+
+
+.lazy div {
+    position: relative;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.lazy div h1 {
+    position: absolute;
+    width: 100%;
+    top: 1.3rem;
+    z-index: 1;
+}
+
+.slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+.prev-arrow{
+    left: 80px;
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
+.next-arrow{
+    right: 80px;
+    width: 0;
+    height: 0;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Media-Quieries */
+
+@media screen and (max-width: 760px){
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header ol {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+    
