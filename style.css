@@ -32,6 +32,21 @@ html {
     height: 3.95rem;
     align-items: center;
     padding-right: 1.2rem;
+    animation-name: logo-spin;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes logo-spin {
+    to {
+        transform:rotateY(0dg)
+    } 
+    from {
+        transform: rotateY(360deg);
+    }
+
 }
 
 .container {
